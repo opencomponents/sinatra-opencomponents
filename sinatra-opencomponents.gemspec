@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency 'opencomponents', '~> 0.1.0.pre'
+  spec.add_dependency 'opencomponents', '~> 0.1.0'
   spec.add_dependency 'sinatra', '~> 1.4'
 
   spec.add_development_dependency "bundler", "~> 1.10"
